@@ -1,0 +1,76 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  row-gap: 10px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.button {
+  background-color: #a594f9;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: #cdc1ff;
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  row-gap: 10px;
+  width: 100%;
+}
+
+
+
+
+.taskDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.editButton{
+  background-color: #f9d74c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: #f9d74c;
+}
+
+.deleteButton{
+  background-color: #f9a2a2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: #f9a2a2;
+}
+
+.buttonDiv{
+  display: flex;
+  gap: 10px;
+}
